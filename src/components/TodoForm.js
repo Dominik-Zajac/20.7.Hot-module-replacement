@@ -11,8 +11,8 @@ class TodoForm extends React.Component {
 	};
 
   	submit(e) {
-    	e.preventDefault();
-    	this.state.value == '' ? alert('Write task name!') : this.props.add(this.state.value); 
+    		e.preventDefault();
+    		this.state.value == '' ? alert('Write task name!') : this.props.add(this.state.value); 
   	};
 
 	render() {
